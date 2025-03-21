@@ -1,0 +1,153 @@
+/* Отключаем прокрутку для body и html */  
+html, body {  
+    overflow: hidden;  
+    height: 100%;  
+}  
+
+/* Основные стили для body */  
+body {  
+    font-family: Arial, sans-serif;  
+    text-align: center;  
+    margin: 0;  
+    padding: 20px;  
+    height: 100vh;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    background-color: #292525;  
+}  
+
+/* Стили для вкладок */  
+.tab {  
+    max-width: 500px;  
+    width: 100%;  
+    margin: 0 auto;  
+    text-align: center;  
+    position: relative;  
+}  
+
+/* Скрытие вкладки */  
+.hidden {  
+    display: none;  
+}  
+
+/* Стили для заголовка */  
+h1 {  
+    color: #918484;  
+    font-size: 19px;  
+    margin-top: 5px;  
+    margin-bottom: 10px;  
+    margin-left: 48px;  
+    text-align: left;  
+}  
+
+.site-text {  
+    display: block;  
+    margin-top: 10px;  
+}  
+
+/* Стили для основного текста */  
+p {  
+    color: #918484;  
+    font-size: 19px;  
+    line-height: 1.2;  
+    text-align: left;  
+    margin-left: 52px;  
+}  
+
+.server-address {  
+    display: block;  
+    margin-top: 5px;  
+    text-align: left;  
+}  
+
+.action-text {  
+    display: block;  
+    margin-top: 5px;  
+    margin-left: 0;  
+}  
+
+/* Стили для жирного текста */  
+strong {  
+    color: #918484;  
+}  
+
+/* Стили для списка */  
+ul {  
+    margin: 10px 0 20px 20px;  
+    padding: 0;  
+    list-style-type: none;  
+}  
+
+/* Стили для элементов списка */  
+li {  
+    color: #918484;  
+    font-size: 16px;  
+    margin-bottom: 10px;  
+    text-align: center;  
+}  
+
+/* Стили для кода ошибки */  
+.error-code {  
+    color: #918484;  
+    font-size: 14px;  
+    margin-top: 20px;  
+}  
+
+.button-container {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    margin-top: 100px;  
+    position: relative;  
+}  
+
+/* Стили для кнопки */  
+button {  
+    padding: 10px 20px;  
+    font-size: 17px;  
+    cursor: pointer;  
+    background-color: #5bc0de;  
+    color: white;  
+    border: none;  
+    margin-top: 80px;  
+    border-radius: 20px;  
+    width: 300px;  
+}  
+
+/* Стили для кнопки при наведении */  
+button:hover {  
+    background-color: #31b0d5;  
+}  
+
+/* Стили для текста "Сведения" */  
+.details {  
+    color: #5bc0de;  
+    font-size: 14px;  
+    margin-top: 25px;  
+    text-align: center;  
+    width: 67%;  
+}  
+
+/* Стили для изображения на второй вкладке */  
+.tab2-image {   
+    max-width: 600px;  
+    width: 350px; /* Уменьшенный размер */  
+    height: auto;  
+    border-radius: 10px;  
+    margin-bottom: 500px; /* Отступ сверху */ 
+}  
+
+/* Стили для текста на второй вкладке */  
+.tab2-text {  
+    min-width: 300px;
+    position: absolute;  
+    bottom: 180px; /* Расположение внизу */  
+    left: 50%;  
+    transform: translateX(-50%);  
+    background-color: rgba(0, 0, 0, 0.7); /* Настраиваемый фон */  
+    color: white;  
+    padding: 10px 20px;  
+    border-radius: 10px;  
+    font-size: 50px;  
+}  
